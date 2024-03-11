@@ -9,12 +9,9 @@ pipeline {
     }
     stage('Test') { 
       steps {
-        sh './output'
+        sh './ou'
       }
     }
-
-   
-      
    stage('Deploy') {  
       steps {
         echo 'deploy'
